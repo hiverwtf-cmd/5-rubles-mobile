@@ -28,10 +28,16 @@ jobs:
 
       - name: Install Android NDK
         run: |
-          yes | sdkmanager --licenses || true
-          yes | sdkmanager "ndk;21.4.7075529" "cmake;3.10.2.4988404"
-          echo "ANDROID_SDK_ROOT=$ANDROID_HOME" >> $GITHUB_ENV
-          echo "ANDROID_NDK_ROOT=$ANDROID_HOME/ndk/21.4.7075529" >> $GITHUB_ENV
+          SDK_ROOT="${ANDROID_HOME:-$ANDROID_SDK_ROOT}"
+          SDKMANAGER="$SDK_ROOT/cmdline-tools/latest/bin/sdkmanager"
+          if [ ! -f "$SDKMANAGER" ]; then
+            SDKMANAGER=$(find "$SDK_ROOT" -name sdkmanager -type f | head -n 1)
+          fi
+          echo "Using sdkmanager at: $SDKMANAGER"
+          yes | "$SDKMANAGER" --licenses || true
+          yes | "$SDKMANAGER" "ndk;21.4.7075529" "cmake;3.10.2.4988404"
+          echo "ANDROID_SDK_ROOT=$SDK_ROOT" >> $GITHUB_ENV
+          echo "ANDROID_NDK_ROOT=$SDK_ROOT/ndk/21.4.7075529" >> $GITHUB_ENV
 
       - name: Install Haxelib
         run: |

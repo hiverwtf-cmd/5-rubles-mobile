@@ -67,7 +67,7 @@ jobs:
           haxelib git flxanimate https://github.com/Redar13/flxanimate dev --skip-dependencies > /dev/null 2>&1 || true
           haxelib git linc_luajit https://github.com/superpowers04/linc_luajit --skip-dependencies > /dev/null 2>&1 || true
           haxelib git hscript-improved https://github.com/Redar13/hscript-improved polymod-scripted-classes --skip-dependencies > /dev/null 2>&1 || true
-          haxelib install hxvlc 1.9.6 --skip-dependencies > /dev/null 2>&1 || true
+          haxelib install hxvlc 2.1.0 --skip-dependencies > /dev/null 2>&1 || true
           haxelib install hxdiscord_rpc --skip-dependencies > /dev/null 2>&1 || true
           haxelib install funk.vis --skip-dependencies > /dev/null 2>&1 || true
           haxelib install grig.audio --skip-dependencies > /dev/null 2>&1 || true

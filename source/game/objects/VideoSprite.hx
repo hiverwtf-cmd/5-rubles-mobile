@@ -14,6 +14,7 @@ import hxvlc.externs.LibVLC;
 import hxvlc.openfl.Video;
 import hxvlc.util.Location;
 #if (hxvlc >= version("2.1.0"))
+import hxvlc.externs.Types;
 import hxvlc.util.macros.DefineMacro as Define;
 #else
 import hxvlc.util.macros.Define;
@@ -78,7 +79,11 @@ class VideoSprite extends FlxSprite // #if (hxvlc < version("1.9.0")) implements
 			if (bitmap == null)
 				return;
 
+			#if (hxvlc >= version("2.1.0"))
+			bitmap.role = LibVLC_Role_Game;
+			#else
 			bitmap.role = hxvlc.externs.LibVLC.LibVLC_Media_Player_Role_T.LibVLC_Role_Game;
+			#end
 			#if FLX_SOUND_SYSTEM
 			#if (flixel >= "5.9.0")
 			if (!FlxG.sound.onVolumeChange.has(onVolumeChange))

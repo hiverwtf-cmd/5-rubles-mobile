@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="hiverwtfack.png">
+	<SubTexture name="hiverwtfack0000" x="0" y="0" width="130" height="113" frameX="0" frameY="-8" frameWidth="131" frameHeight="122"/>
+	<SubTexture name="hiverwtfack0001" x="0" y="113" width="130" height="114" frameX="0" frameY="-8" frameWidth="131" frameHeight="122"/>
+	<SubTexture name="hiverwtfack0002" x="0" y="227" width="128" height="117" frameX="-3" frameY="0" frameWidth="131" frameHeight="122"/>
+	<SubTexture name="hiverwtfack0003" x="128" y="227" width="128" height="117" frameX="-3" frameY="0" frameWidth="131" frameHeight="122"/>
+	<SubTexture name="hiverwtfack образец 10000" x="0" y="0" width="130" height="113" frameX="0" frameY="-8" frameWidth="131" frameHeight="122"/>
+	<SubTexture name="hiverwtfack образец 10001" x="0" y="113" width="130" height="114" frameX="0" frameY="-8" frameWidth="131" frameHeight="122"/>
+	<SubTexture name="hiverwtfack образец 10002" x="0" y="227" width="128" height="117" frameX="-3" frameY="0" frameWidth="131" frameHeight="122"/>
+	<SubTexture name="hiverwtfack образец 10003" x="128" y="227" width="128" height="117" frameX="-3" frameY="0" frameWidth="131" frameHeight="122"/>
+</TextureAtlas>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="loh.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="downloh0000" x="0" y="0" width="640" height="435" frameX="0" frameY="-205" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="downloh0001" x="0" y="0" width="640" height="435" frameX="0" frameY="-205" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="downloh0002" x="0" y="2299" width="640" height="640" frameX="0" frameY="0" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="downloh0003" x="0" y="2299" width="640" height="640" frameX="0" frameY="0" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="downloh0004" x="0" y="2299" width="640" height="640" frameX="0" frameY="0" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="downloh0005" x="0" y="2299" width="640" height="640" frameX="0" frameY="0" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="downloh0006" x="0" y="2299" width="640" height="640" frameX="0" frameY="0" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="downloh0007" x="0" y="2299" width="640" height="640" frameX="0" frameY="0" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="downloh0008" x="0" y="2299" width="640" height="640" frameX="0" frameY="0" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="downloh0009" x="0" y="2299" width="640" height="640" frameX="0" frameY="0" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="downloh0010" x="0" y="2299" width="640" height="640" frameX="0" frameY="0" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="downloh0011" x="0" y="2299" width="640" height="640" frameX="0" frameY="0" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="downloh0012" x="0" y="2299" width="640" height="640" frameX="0" frameY="0" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="downloh0013" x="0" y="2299" width="640" height="640" frameX="0" frameY="0" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="idleloh0000" x="640" y="0" width="1019" height="425" frameX="0" frameY="-216" frameWidth="1019" frameHeight="642"/>
+	<SubTexture name="idleloh0001" x="640" y="0" width="1019" height="425" frameX="0" frameY="-216" frameWidth="1019" frameHeight="642"/>
+	<SubTexture name="idleloh0002" x="0" y="435" width="945" height="515" frameX="-74" frameY="-126" frameWidth="1019" frameHeight="642"/>
+	<SubTexture name="idleloh0003" x="0" y="435" width="945" height="515" frameX="-74" frameY="-126" frameWidth="1019" frameHeight="642"/>
+	<SubTexture name="idleloh0004" x="945" y="435" width="874" height="582" frameX="-145" frameY="-59" frameWidth="1019" frameHeight="642"/>
+	<SubTexture name="idleloh0005" x="945" y="435" width="874" height="582" frameX="-145" frameY="-59" frameWidth="1019" frameHeight="642"/>
+	<SubTexture name="idleloh0006" x="0" y="1017" width="792" height="626" frameX="-227" frameY="-16" frameWidth="1019" frameHeight="642"/>
+	<SubTexture name="idleloh0007" x="0" y="1017" width="792" height="626" frameX="-227" frameY="-16" frameWidth="1019" frameHeight="642"/>
+	<SubTexture name="idleloh0008" x="792" y="1017" width="641" height="642" frameX="-378" frameY="0" frameWidth="1019" frameHeight="642"/>
+	<SubTexture name="idleloh0009" x="792" y="1017" width="641" height="642" frameX="-378" frameY="0" frameWidth="1019" frameHeight="642"/>
+	<SubTexture name="idleloh0010" x="792" y="1017" width="641" height="642" frameX="-378" frameY="0" frameWidth="1019" frameHeight="642"/>
+	<SubTexture name="idleloh0011" x="792" y="1017" width="641" height="642" frameX="-378" frameY="0" frameWidth="1019" frameHeight="642"/>
+	<SubTexture name="idleloh0012" x="792" y="1017" width="641" height="642" frameX="-378" frameY="0" frameWidth="1019" frameHeight="642"/>
+	<SubTexture name="idleloh0013" x="792" y="1017" width="641" height="642" frameX="-378" frameY="0" frameWidth="1019" frameHeight="642"/>
+	<SubTexture name="leftloh0000" x="0" y="1659" width="896" height="640"/>
+	<SubTexture name="leftloh0001" x="0" y="1659" width="896" height="640"/>
+	<SubTexture name="leftloh0002" x="0" y="2299" width="640" height="640" frameX="-256" frameY="0" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="leftloh0003" x="0" y="2299" width="640" height="640" frameX="-256" frameY="0" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="leftloh0004" x="0" y="2299" width="640" height="640" frameX="-256" frameY="0" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="leftloh0005" x="0" y="2299" width="640" height="640" frameX="-256" frameY="0" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="leftloh0006" x="0" y="2299" width="640" height="640" frameX="-256" frameY="0" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="leftloh0007" x="0" y="2299" width="640" height="640" frameX="-256" frameY="0" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="leftloh0008" x="0" y="2299" width="640" height="640" frameX="-256" frameY="0" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="leftloh0009" x="0" y="2299" width="640" height="640" frameX="-256" frameY="0" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="leftloh0010" x="0" y="2299" width="640" height="640" frameX="-256" frameY="0" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="leftloh0011" x="0" y="2299" width="640" height="640" frameX="-256" frameY="0" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="leftloh0012" x="0" y="2299" width="640" height="640" frameX="-256" frameY="0" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="leftloh0013" x="0" y="2299" width="640" height="640" frameX="-256" frameY="0" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="rightloh0000" x="896" y="1659" width="682" height="640"/>
+	<SubTexture name="rightloh0001" x="896" y="1659" width="682" height="640"/>
+	<SubTexture name="rightloh0002" x="0" y="2299" width="640" height="640" frameX="0" frameY="0" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="rightloh0003" x="0" y="2299" width="640" height="640" frameX="0" frameY="0" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="rightloh0004" x="0" y="2299" width="640" height="640" frameX="0" frameY="0" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="rightloh0005" x="0" y="2299" width="640" height="640" frameX="0" frameY="0" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="rightloh0006" x="0" y="2299" width="640" height="640" frameX="0" frameY="0" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="rightloh0007" x="0" y="2299" width="640" height="640" frameX="0" frameY="0" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="rightloh0008" x="0" y="2299" width="640" height="640" frameX="0" frameY="0" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="rightloh0009" x="0" y="2299" width="640" height="640" frameX="0" frameY="0" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="rightloh0010" x="0" y="2299" width="640" height="640" frameX="0" frameY="0" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="rightloh0011" x="0" y="2299" width="640" height="640" frameX="0" frameY="0" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="rightloh0012" x="0" y="2299" width="640" height="640" frameX="0" frameY="0" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="rightloh0013" x="0" y="2299" width="640" height="640" frameX="0" frameY="0" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="uploh0000" x="640" y="2299" width="640" height="725"/>
+	<SubTexture name="uploh0001" x="640" y="2299" width="640" height="725"/>
+	<SubTexture name="uploh0002" x="0" y="2299" width="640" height="640" frameX="0" frameY="-84" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="uploh0003" x="0" y="2299" width="640" height="640" frameX="0" frameY="-84" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="uploh0004" x="0" y="2299" width="640" height="640" frameX="0" frameY="-84" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="uploh0005" x="0" y="2299" width="640" height="640" frameX="0" frameY="-84" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="uploh0006" x="0" y="2299" width="640" height="640" frameX="0" frameY="-84" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="uploh0007" x="0" y="2299" width="640" height="640" frameX="0" frameY="-84" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="uploh0008" x="0" y="2299" width="640" height="640" frameX="0" frameY="-84" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="uploh0009" x="0" y="2299" width="640" height="640" frameX="0" frameY="-84" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="uploh0010" x="0" y="2299" width="640" height="640" frameX="0" frameY="-84" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="uploh0011" x="0" y="2299" width="640" height="640" frameX="0" frameY="-84" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="uploh0012" x="0" y="2299" width="640" height="640" frameX="0" frameY="-84" frameWidth="682" frameHeight="640"/>
+	<SubTexture name="uploh0013" x="0" y="2299" width="640" height="640" frameX="0" frameY="-84" frameWidth="682" frameHeight="640"/>
+</TextureAtlas>

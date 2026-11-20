@@ -1,0 +1,135 @@
+{
+	"animations": [
+		{
+			"offsets": [-127, -300],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [-88, -289],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left-wtf"
+		},
+		{
+			"loop": false,
+			"offsets": [-103, -319],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "left-alt",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-14, -287],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "down-alt",
+			"indices": []
+		},
+		{
+			"offsets": [-173, -347],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"indices": [],
+			"name": "right-alt"
+		},
+		{
+			"loop": false,
+			"offsets": [-54, -249],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up-wtf",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-81, -296],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "up-alt",
+			"indices": []
+		},
+		{
+			"offsets": [-81, -296],
+			"loop": true,
+			"fps": 24,
+			"anim": "dance1",
+			"indices": [],
+			"name": "dance1"
+		},
+		{
+			"loop": false,
+			"offsets": [-78, -329],
+			"anim": "hey",
+			"fps": 24,
+			"name": "hey",
+			"indices": []
+		},
+		{
+			"offsets": [-90, -294],
+			"loop": false,
+			"fps": 24,
+			"anim": "left-miss",
+			"indices": [],
+			"name": "missleft"
+		},
+		{
+			"loop": false,
+			"offsets": [-85, -293],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "missleft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-86, -266],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "missup",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-121, -322],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "missright",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-110, -322],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right-wtf",
+			"indices": []
+		},
+		{
+			"offsets": [-119, -365],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "down-wtf"
+		}
+	],
+	"vocals_file": "wtf",
+	"no_antialiasing": false,
+	"image": "characters/hiverwtfack",
+	"position": [0, 0],
+	"healthicon": "hiverwtf",
+	"flip_x": true,
+	"healthbar_colors": [255, 255, 255],
+	"camera_position": [190, 160],
+	"sing_duration": 4,
+	"scale": 1.8,
+	"_editor_isPlayer": true
+}

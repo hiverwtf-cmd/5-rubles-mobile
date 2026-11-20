@@ -1,0 +1,43 @@
+name: Build Desktop (Windows)
+
+on:
+  push:
+    branches: [ main, develop ]
+    paths:
+      - 'source/**'
+      - 'assets/**'
+      - 'Project.xml'
+      - '.github/workflows/build-desktop.yml'
+  workflow_dispatch:
+
+jobs:
+  buildWindows:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: krdlab/setup-haxe@master
+        with:
+          haxe-version: 4.3.6
+
+      - name: Install Haxelib
+        run: |
+          haxelib setup C:/haxelib
+          haxelib install hxcpp > /dev/null --quiet
+          .\"setup/windows.bat"
+        shell: cmd
+
+      - name: Create Version Tag
+        run: echo "${{github.run_id}}" > VERSION
+
+      - name: Compile
+        run: haxelib run lime build windows
+        shell: cmd
+
+      - name: Publish Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: 5Rubles_${{github.run_id}}_Windows
+          path: export/dev/windows/bin
+          retention-days: 30

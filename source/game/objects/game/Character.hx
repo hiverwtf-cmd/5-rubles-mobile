@@ -124,6 +124,13 @@ class Character extends FunkinSprite
 				data = cast Json.parse(Assets.getText(path));
 				if (data == null) throw "Null Object Reference";
 			}
+			#if sys
+			else if (sys.FileSystem.exists('assets/$path'))
+			{
+				data = cast Json.parse(sys.io.File.getContent('assets/$path'));
+				if (data == null) throw "Null Object Reference";
+			}
+			#end
 			else
 			{
 				throw "File doesn't exist";

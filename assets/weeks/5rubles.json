@@ -1,24 +1,9 @@
 {
     "songs": [
         {
-            "songName": "Black2Blue",
-            "healthIcon": "sway",
-            "freeplayColor": "#625F6C"
-        },
-        {
-            "songName": "Rubls",
+            "songName": "rubls-picomix",
             "healthIcon": "lostel",
             "freeplayColor": "#94526B"
-        },
-        {
-            "songName": "Nokia",
-            "healthIcon": "zorka",
-            "freeplayColor": "#D24553"
-        },
-        {
-            "songName": "Rofls",
-            "healthIcon": "rofos",
-            "freeplayColor": "#643A45"
         },
         {
             "songName": "Bezdari",
@@ -26,14 +11,9 @@
             "freeplayColor": "#395443"
         },
         {
-            "songName": "Hernya",
-            "healthIcon": "d4rk",
-            "freeplayColor": "#5A5A3D"
-        },
-        {
-            "songName": "hhbg",
-            "healthIcon": "hiverwtfack",
-            "freeplayColor": "#FFFFFF"
+            "songName": "Add Me In 5RUBLES",
+            "healthIcon": "olek5rubeyl-dad",
+            "freeplayColor": "#8D6083"
         }
     ],
     "isTwist": true

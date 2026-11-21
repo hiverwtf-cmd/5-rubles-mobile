@@ -17,10 +17,10 @@ jobs:
     steps:
       - name: Configure System Memory and Swap
         run: |
-          sudo fallocate -l 6G /swapfile || sudo dd if=/dev/zero of=/swapfile bs=1M count=6144
-          sudo chmod 600 /swapfile
-          sudo mkswap /swapfile
-          sudo swapon /swapfile
+          (sudo fallocate -l 6G /swapfile2 || sudo dd if=/dev/zero of=/swapfile2 bs=1M count=6144) 2>/dev/null || true
+          sudo chmod 600 /swapfile2 2>/dev/null || true
+          sudo mkswap /swapfile2 2>/dev/null || true
+          sudo swapon /swapfile2 2>/dev/null || true
           free -h
           mkdir -p ~/.gradle
           cat << 'EOF' > ~/.gradle/gradle.properties

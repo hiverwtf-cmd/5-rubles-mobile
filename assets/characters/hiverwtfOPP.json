@@ -1,0 +1,184 @@
+{
+  "animations": [
+    {
+      "loop": true,
+      "offsets": [
+        41,
+        -299
+      ],
+      "anim": "dance1",
+      "name": "dance1"
+    },
+    {
+      "offsets": [
+        -160,
+        -348
+      ],
+      "anim": "deathConfirm",
+      "name": "deathconfirm"
+    },
+    {
+      "loop": true,
+      "offsets": [
+        -160,
+        -348
+      ],
+      "anim": "deathLoop",
+      "name": "deathloop"
+    },
+    {
+      "offsets": [
+        -160,
+        -348
+      ],
+      "anim": "firstDeath",
+      "name": "epicdeath"
+    },
+    {
+      "offsets": [
+        -94,
+        -329
+      ],
+      "anim": "hey",
+      "name": "hey"
+    },
+    {
+      "offsets": [
+        -127,
+        -300
+      ],
+      "anim": "idle",
+      "name": "idle"
+    },
+    {
+      "offsets": [
+        -162,
+        -290
+      ],
+      "anim": "left-miss",
+      "name": "missleft"
+    },
+    {
+      "offsets": [
+        -135,
+        -357
+      ],
+      "anim": "singDOWN",
+      "name": "down-wtf"
+    },
+    {
+      "offsets": [
+        -44,
+        -289
+      ],
+      "anim": "singDOWN-alt",
+      "name": "down-alt"
+    },
+    {
+      "offsets": [
+        -57,
+        -322
+      ],
+      "anim": "singDOWNmiss",
+      "name": "missdown"
+    },
+    {
+      "offsets": [
+        -106,
+        -323
+      ],
+      "anim": "singLEFT",
+      "name": "right-wtf"
+    },
+    {
+      "offsets": [
+        -69,
+        -337
+      ],
+      "anim": "singLEFT-alt",
+      "name": "right-alt"
+    },
+    {
+      "offsets": [
+        -70,
+        -320
+      ],
+      "anim": "singLEFTmiss",
+      "name": "missright"
+    },
+    {
+      "offsets": [
+        -169,
+        -289
+      ],
+      "anim": "singRIGHT",
+      "name": "left-wtf"
+    },
+    {
+      "offsets": [
+        -120,
+        -318
+      ],
+      "anim": "singRIGHT-alt",
+      "name": "left-alt"
+    },
+    {
+      "offsets": [
+        -161,
+        -292
+      ],
+      "anim": "singRIGHTmiss",
+      "name": "missleft"
+    },
+    {
+      "offsets": [
+        -129,
+        -249
+      ],
+      "anim": "singUP",
+      "name": "up-wtf"
+    },
+    {
+      "offsets": [
+        -113,
+        -293
+      ],
+      "anim": "singUP-alt",
+      "name": "up-alt"
+    },
+    {
+      "offsets": [
+        -117,
+        -265
+      ],
+      "anim": "singUPmiss",
+      "name": "missup"
+    }
+  ],
+  "image": "characters/hiverwtfack",
+  "position": [
+    -25,
+    4
+  ],
+  "beatDance": 2,
+  "healthicon": "wtf",
+  "flip_x": true,
+  "healthbar_colors": [
+    255,
+    255,
+    255
+  ],
+  "camera_position": [
+    190,
+    160
+  ],
+  "sing_duration": 4,
+  "scale": 1.8,
+  "gameover_properties": [
+    "wtf-dead",
+    "fnf_loss_sfx",
+    "gameOver",
+    "gameOverEnd",
+    100
+  ]
+}

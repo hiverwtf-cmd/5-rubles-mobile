@@ -1,0 +1,33 @@
+{
+	"animations": [
+		{
+			"anim": "idle",
+			"nameAnim": "hiverwtfack0",
+			"fps": 24,
+			"loop": true
+		},
+		{
+			"anim": "lose",
+			"nameAnim": "hiverwtfack0",
+			"fps": 24
+		},
+		{
+			"anim": "win",
+			"nameAnim": "hiverwtfack0",
+			"fps": 24
+		}
+	],
+	"image": "hiverwtfack",
+	"hadXml": true,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"offsets": [
+		0,
+		0
+	],
+	"scale": 1,
+	"flipX": false
+}

@@ -1,1 +1,131 @@
-{"animations":[{"offsets":[34,172],"anim":"idle","name":"idle"},{"offsets":[41,82],"anim":"singDOWN","name":"downdave"},{"offsets":[-19,-24],"anim":"singDOWNmiss","name":"missd"},{"offsets":[172,162],"anim":"singLEFT","name":"rightdave"},{"offsets":[149,156],"anim":"singLEFTmiss","name":"missr"},{"offsets":[-63,181],"anim":"singRIGHT","name":"leftdave"},{"offsets":[-56,177],"anim":"singRIGHTmiss","name":"missl"},{"offsets":[-109,189],"anim":"singUP","name":"updave"},{"offsets":[-99,275],"anim":"singUPmiss","name":"missu"}],"image":"characters/crazybro","position":[-13,359],"beatDance":2,"healthicon":"crazy","healthbar_colors":[80,76,80],"camera_position":[10,-250],"sing_duration":4,"scale":1.2}
+{
+  "animations": [
+    {
+      "offsets": [
+        34,
+        172
+      ],
+      "indices": [],
+      "fps": 24,
+      "anim": "idle",
+      "loop": false,
+      "name": "idle"
+    },
+    {
+      "offsets": [
+        179,
+        160
+      ],
+      "indices": [],
+      "fps": 24,
+      "anim": "singLEFT",
+      "loop": false,
+      "name": "rightdave"
+    },
+    {
+      "offsets": [
+        41,
+        82
+      ],
+      "indices": [],
+      "fps": 24,
+      "anim": "singDOWN",
+      "loop": false,
+      "name": "downdave"
+    },
+    {
+      "offsets": [
+        -75,
+        222
+      ],
+      "indices": [],
+      "fps": 24,
+      "anim": "singUP",
+      "loop": false,
+      "name": "updave"
+    },
+    {
+      "offsets": [
+        -7,
+        206
+      ],
+      "indices": [],
+      "fps": 24,
+      "anim": "singRIGHT",
+      "loop": false,
+      "name": "leftdave"
+    },
+    {
+      "offsets": [
+        169,
+        165
+      ],
+      "indices": [],
+      "fps": 24,
+      "anim": "singLEFTmiss",
+      "loop": false,
+      "name": "missr"
+    },
+    {
+      "offsets": [
+        41,
+        -39
+      ],
+      "indices": [],
+      "fps": 24,
+      "anim": "singDOWNmiss",
+      "loop": false,
+      "name": "missd"
+    },
+    {
+      "offsets": [
+        -70,
+        310
+      ],
+      "indices": [],
+      "fps": 24,
+      "anim": "singUPmiss",
+      "loop": false,
+      "name": "missu"
+    },
+    {
+      "offsets": [
+        4,
+        210
+      ],
+      "indices": [],
+      "fps": 24,
+      "anim": "singRIGHTmiss",
+      "loop": false,
+      "name": "missl"
+    }
+  ],
+  "vocals_file": "",
+  "no_antialiasing": false,
+  "image": "characters/crazybro",
+  "position": [
+    0,
+    350
+  ],
+  "healthicon": "crazy",
+  "flip_x": false,
+  "healthbar_colors": [
+    80,
+    76,
+    80
+  ],
+  "camera_position": [
+    10,
+    -250
+  ],
+  "sing_duration": 4,
+  "scale": 1.2,
+  "_editor_isPlayer": true,
+  "gameover_properties": [
+    "dave-dead",
+    "fnf_loss_sfx",
+    "gameOver",
+    "gameOverEnd",
+    100
+  ]
+}

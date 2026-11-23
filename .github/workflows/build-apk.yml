@@ -110,6 +110,34 @@ jobs:
       - name: Compile
         run: haxelib run lime build android -release
 
+      - name: Sign and Align APK
+        run: |
+          SDK_ROOT="${ANDROID_HOME:-$ANDROID_SDK_ROOT}"
+          BUILD_TOOLS=$(find "$SDK_ROOT/build-tools" -name apksigner -type f | sort -V | tail -n 1 | xargs dirname)
+          echo "Using Android build-tools from: $BUILD_TOOLS"
+
+          for apk in $(find export -name "*.apk" -type f); do
+            echo "Processing $apk..."
+            if ! "$BUILD_TOOLS/zipalign" -c 4 "$apk"; then
+              echo "Aligning $apk..."
+              "$BUILD_TOOLS/zipalign" -v -p 4 "$apk" "$apk.aligned"
+              mv "$apk.aligned" "$apk"
+            fi
+
+            echo "Signing $apk with apksigner (v1, v2, v3)..."
+            "$BUILD_TOOLS/apksigner" sign --ks release.jks \
+              --ks-pass pass:5rublespass \
+              --key-pass pass:5rublespass \
+              --ks-key-alias 5rubles \
+              --v1-signing-enabled true \
+              --v2-signing-enabled true \
+              --v3-signing-enabled true \
+              "$apk"
+
+            echo "Verifying signature of $apk:"
+            "$BUILD_TOOLS/apksigner" verify --verbose "$apk"
+          done
+
       - name: Find APK
         run: find export -name "*.apk" -type f
 

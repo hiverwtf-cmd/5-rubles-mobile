@@ -381,7 +381,7 @@ class Downloader implements IFlxDestroyable
 
 	function onCloseApplication(code:Int)
 	{
-		trace("блять");
+		trace("FNF");
 		cancel();
 	}
 
